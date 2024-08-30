@@ -21,6 +21,7 @@ public class BeforeAndAfterAnnotation {
 	@BeforeMethod
 	public void beforeMethod() {
 		System.out.println("Hit the URL");
+		System.out.println("Open the URL");
 	}
 	@Test(groups="Smoke")
 	public void getNavigateTo() {
