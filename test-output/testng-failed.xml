@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [EMI Month]" guice-stage="DEVELOPMENT">
+  <parameter name="UserName" value="Amit97788"/>
+  <parameter name="URL" value="www.facebook.com"/>
+  <listeners>
+    <listener class-name="test.Listeners"/>
+  </listeners>
+  <test thread-count="5" name="July(failed)">
+    <classes>
+      <class name="test.Test1">
+        <methods>
+          <include name="beforeSuite"/>
+          <include name="demo"/>
+        </methods>
+      </class> <!-- test.Test1 -->
+    </classes>
+  </test> <!-- July(failed) -->
+  <test thread-count="5" name="July Extra Remove(failed)">
+    <classes>
+      <class name="test.Test1">
+        <methods>
+          <include name="beforeSuite"/>
+          <include name="demo"/>
+        </methods>
+      </class> <!-- test.Test1 -->
+    </classes>
+  </test> <!-- July Extra Remove(failed) -->
+</suite> <!-- Failed suite [EMI Month] -->

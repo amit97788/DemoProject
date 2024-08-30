@@ -1,0 +1,48 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "https://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="8">EMI Month</th></tr>
+<tr><td><a href="#t0">July</a></td><td class="num">7</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">63</td><td></td><td></td></tr>
+<tr class="stripe"><td><a href="#t1">July Extra Remove</a></td><td class="num">5</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">20</td><td></td><td></td></tr>
+<tr><td><a href="#t2">My friend</a></td><td class="num">2</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">5</td><td></td><td></td></tr>
+<tr class="stripe"><td><a href="#t3">Execute the script</a></td><td class="num">2</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">9</td><td></td><td></td></tr>
+<tr><th>Total</th><th class="num">16</th><th class="num">0</th><th class="num">0</th><th class="num attn">2</th><th class="num">97</th><th colspan="2"></th></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">EMI Month</th></tr></tbody><tbody id="t0"><tr><th colspan="4">July &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">test.Test1</td><td><a href="#m0">demo</a></td><td rowspan="1">1722688115968</td><td rowspan="1">3</td></tr><tr><th colspan="4">July &#8212; passed</th></tr><tr class="passedeven"><td rowspan="6">test.Test1</td><td><a href="#m1">bantiMoney</a></td><td rowspan="1">1722688115995</td><td rowspan="1">1</td></tr><tr class="passedeven"><td><a href="#m2">hdfcEMI</a></td><td rowspan="1">1722688115976</td><td rowspan="1">5</td></tr><tr class="passedeven"><td><a href="#m3">runApplication</a></td><td rowspan="3">1722688115991</td><td rowspan="3">2</td></tr><tr class="passedeven"><td><a href="#m4">runApplication</a></td></tr><tr class="passedeven"><td><a href="#m5">runApplication</a></td></tr><tr class="passedeven"><td><a href="#m6">sbi1EMI</a></td><td rowspan="1">1722688115983</td><td rowspan="1">1</td></tr><tr class="passedodd"><td rowspan="1">test.Test2</td><td><a href="#m7">myHomeLoan</a></td><td rowspan="1">1722688115955</td><td rowspan="1">8</td></tr></tbody>
+<tbody id="t1"><tr><th colspan="4">July Extra Remove &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">test.Test1</td><td><a href="#m8">demo</a></td><td rowspan="1">1722688116073</td><td rowspan="1">0</td></tr><tr><th colspan="4">July Extra Remove &#8212; passed</th></tr><tr class="passedeven"><td rowspan="5">test.Test1</td><td><a href="#m9">hdfcEMI</a></td><td rowspan="1">1722688116076</td><td rowspan="1">2</td></tr><tr class="passedeven"><td><a href="#m10">runApplication</a></td><td rowspan="3">1722688116079</td><td rowspan="3">1</td></tr><tr class="passedeven"><td><a href="#m11">runApplication</a></td></tr><tr class="passedeven"><td><a href="#m12">runApplication</a></td></tr><tr class="passedeven"><td><a href="#m13">sbi1EMI</a></td><td rowspan="1">1722688116083</td><td rowspan="1">7</td></tr></tbody>
+<tbody id="t2"><tr><th colspan="4">My friend &#8212; passed</th></tr><tr class="passedeven"><td rowspan="2">test.TestCasePeckageLevelWithRegex</td><td><a href="#m14">engineeringFriend</a></td><td rowspan="1">1722688116101</td><td rowspan="1">2</td></tr><tr class="passedeven"><td><a href="#m15">plustwoFriend</a></td><td rowspan="1">1722688116104</td><td rowspan="1">0</td></tr></tbody>
+<tbody id="t3"><tr><th colspan="4">Execute the script &#8212; passed</th></tr><tr class="passedeven"><td rowspan="2">test.BeforeAndAfterAnnotation</td><td><a href="#m16">clickOnHome</a></td><td rowspan="1">1722688116115</td><td rowspan="1">1</td></tr><tr class="passedeven"><td><a href="#m17">getNavigateTo</a></td><td rowspan="1">1722688116117</td><td rowspan="1">1</td></tr></tbody>
+</table>
+<h2>July</h2><h3 id="m0">test.Test1#demo</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [true] but found [false]
+	at test.Test1.demo(Test1.java:53)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+... Removed 29 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">test.Test1#bantiMoney</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">test.Test1#hdfcEMI</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">test.Test1#runApplication</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>Logout</td><td>Confirm</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">test.Test1#runApplication</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>Navigation</td><td>Home</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">test.Test1#runApplication</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>UserName</td><td>Password</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">test.Test1#sbi1EMI</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">test.Test2#myHomeLoan</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>www.facebook.com</td><td>Amit97788</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>July Extra Remove</h2><h3 id="m8">test.Test1#demo</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [true] but found [false]
+	at test.Test1.demo(Test1.java:53)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+... Removed 29 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">test.Test1#hdfcEMI</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m10">test.Test1#runApplication</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>UserName</td><td>Password</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m11">test.Test1#runApplication</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>Logout</td><td>Confirm</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m12">test.Test1#runApplication</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>Navigation</td><td>Home</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m13">test.Test1#sbi1EMI</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>My friend</h2><h3 id="m14">test.TestCasePeckageLevelWithRegex#engineeringFriend</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m15">test.TestCasePeckageLevelWithRegex#plustwoFriend</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Execute the script</h2><h3 id="m16">test.BeforeAndAfterAnnotation#clickOnHome</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m17">test.BeforeAndAfterAnnotation#getNavigateTo</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>

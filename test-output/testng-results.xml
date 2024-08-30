@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="6" total="24" passed="16" failed="2" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-08-03T17:58:35 IST" name="EMI Month" finished-at="2024-08-03T17:58:36 IST" duration-ms="186">
+    <groups>
+      <group name="Smoke">
+        <method signature="Test1.sbi1EMI()[pri:0, instance:test.Test1@27462a88]" name="sbi1EMI" class="test.Test1"/>
+        <method signature="Test1.sbi1EMI()[pri:0, instance:test.Test1@229c6181]" name="sbi1EMI" class="test.Test1"/>
+        <method signature="BeforeAndAfterAnnotation.getNavigateTo()[pri:0, instance:test.BeforeAndAfterAnnotation@2e385cce]" name="getNavigateTo" class="test.BeforeAndAfterAnnotation"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test started-at="2024-08-03T17:58:35 IST" name="July" finished-at="2024-08-03T17:58:35 IST" duration-ms="63">
+      <class name="test.Test2">
+        <test-method signature="myHomeLoan(java.lang.String,java.lang.String)[pri:0, instance:test.Test2@2f217633]" started-at="2024-08-03T17:58:35 IST" name="myHomeLoan" finished-at="2024-08-03T17:58:35 IST" duration-ms="8" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[www.facebook.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Amit97788]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- myHomeLoan -->
+      </class> <!-- test.Test2 -->
+      <class name="test.Test1">
+        <test-method signature="demo()[pri:0, instance:test.Test1@27462a88]" started-at="2024-08-03T17:58:35 IST" name="demo" finished-at="2024-08-03T17:58:35 IST" duration-ms="3" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertTrue(Assert.java:45)
+at org.testng.Assert.assertTrue(Assert.java:55)
+at test.Test1.demo(Test1.java:53)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demo -->
+        <test-method signature="hdfcEMI()[pri:0, instance:test.Test1@27462a88]" started-at="2024-08-03T17:58:35 IST" name="hdfcEMI" finished-at="2024-08-03T17:58:35 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hdfcEMI -->
+        <test-method signature="sbi1EMI()[pri:0, instance:test.Test1@27462a88]" started-at="2024-08-03T17:58:35 IST" name="sbi1EMI" finished-at="2024-08-03T17:58:35 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sbi1EMI -->
+        <test-method signature="runApplication(java.lang.String,java.lang.String)[pri:0, instance:test.Test1@27462a88]" started-at="2024-08-03T17:58:35 IST" name="runApplication" data-provider="getData" finished-at="2024-08-03T17:58:35 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[UserName]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runApplication -->
+        <test-method signature="runApplication(java.lang.String,java.lang.String)[pri:0, instance:test.Test1@27462a88]" started-at="2024-08-03T17:58:35 IST" name="runApplication" data-provider="getData" finished-at="2024-08-03T17:58:35 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Navigation]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Home]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runApplication -->
+        <test-method signature="runApplication(java.lang.String,java.lang.String)[pri:0, instance:test.Test1@27462a88]" started-at="2024-08-03T17:58:35 IST" name="runApplication" data-provider="getData" finished-at="2024-08-03T17:58:35 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Logout]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Confirm]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runApplication -->
+        <test-method signature="bantiMoney()[pri:0, instance:test.Test1@27462a88]" started-at="2024-08-03T17:58:35 IST" name="bantiMoney" finished-at="2024-08-03T17:58:35 IST" depends-on-methods="test.Test1.hdfcEMI" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bantiMoney -->
+      </class> <!-- test.Test1 -->
+    </test> <!-- July -->
+    <test started-at="2024-08-03T17:58:36 IST" name="July Extra Remove" finished-at="2024-08-03T17:58:36 IST" duration-ms="20">
+      <class name="test.Test1">
+        <test-method signature="demo()[pri:0, instance:test.Test1@229c6181]" started-at="2024-08-03T17:58:36 IST" name="demo" finished-at="2024-08-03T17:58:36 IST" duration-ms="0" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertTrue(Assert.java:45)
+at org.testng.Assert.assertTrue(Assert.java:55)
+at test.Test1.demo(Test1.java:53)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demo -->
+        <test-method signature="hdfcEMI()[pri:0, instance:test.Test1@229c6181]" started-at="2024-08-03T17:58:36 IST" name="hdfcEMI" finished-at="2024-08-03T17:58:36 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hdfcEMI -->
+        <test-method signature="runApplication(java.lang.String,java.lang.String)[pri:0, instance:test.Test1@229c6181]" started-at="2024-08-03T17:58:36 IST" name="runApplication" data-provider="getData" finished-at="2024-08-03T17:58:36 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[UserName]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runApplication -->
+        <test-method signature="runApplication(java.lang.String,java.lang.String)[pri:0, instance:test.Test1@229c6181]" started-at="2024-08-03T17:58:36 IST" name="runApplication" data-provider="getData" finished-at="2024-08-03T17:58:36 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Navigation]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Home]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runApplication -->
+        <test-method signature="runApplication(java.lang.String,java.lang.String)[pri:0, instance:test.Test1@229c6181]" started-at="2024-08-03T17:58:36 IST" name="runApplication" data-provider="getData" finished-at="2024-08-03T17:58:36 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Logout]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Confirm]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runApplication -->
+        <test-method signature="sbi1EMI()[pri:0, instance:test.Test1@229c6181]" started-at="2024-08-03T17:58:36 IST" name="sbi1EMI" finished-at="2024-08-03T17:58:36 IST" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sbi1EMI -->
+      </class> <!-- test.Test1 -->
+    </test> <!-- July Extra Remove -->
+    <test started-at="2024-08-03T17:58:36 IST" name="My friend" finished-at="2024-08-03T17:58:36 IST" duration-ms="5">
+      <class name="test.TestCasePeckageLevelWithRegex">
+        <test-method signature="engineeringFriend()[pri:0, instance:test.TestCasePeckageLevelWithRegex@13e344d]" started-at="2024-08-03T17:58:36 IST" name="engineeringFriend" finished-at="2024-08-03T17:58:36 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- engineeringFriend -->
+        <test-method signature="plustwoFriend()[pri:0, instance:test.TestCasePeckageLevelWithRegex@13e344d]" started-at="2024-08-03T17:58:36 IST" name="plustwoFriend" finished-at="2024-08-03T17:58:36 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- plustwoFriend -->
+      </class> <!-- test.TestCasePeckageLevelWithRegex -->
+    </test> <!-- My friend -->
+    <test started-at="2024-08-03T17:58:36 IST" name="Execute the script" finished-at="2024-08-03T17:58:36 IST" duration-ms="9">
+      <class name="test.BeforeAndAfterAnnotation">
+        <test-method is-config="true" signature="getLogin()[pri:0, instance:test.BeforeAndAfterAnnotation@2e385cce]" started-at="2024-08-03T17:58:36 IST" name="getLogin" finished-at="2024-08-03T17:58:36 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getLogin -->
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:test.BeforeAndAfterAnnotation@2e385cce]" started-at="2024-08-03T17:58:36 IST" name="beforeClass" finished-at="2024-08-03T17:58:36 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:test.BeforeAndAfterAnnotation@2e385cce]" started-at="2024-08-03T17:58:36 IST" name="beforeMethod" finished-at="2024-08-03T17:58:36 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="clickOnHome()[pri:0, instance:test.BeforeAndAfterAnnotation@2e385cce]" started-at="2024-08-03T17:58:36 IST" name="clickOnHome" finished-at="2024-08-03T17:58:36 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnHome -->
+        <test-method signature="getNavigateTo()[pri:0, instance:test.BeforeAndAfterAnnotation@2e385cce]" started-at="2024-08-03T17:58:36 IST" name="getNavigateTo" finished-at="2024-08-03T17:58:36 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getNavigateTo -->
+        <test-method is-config="true" signature="afterMethode()[pri:0, instance:test.BeforeAndAfterAnnotation@2e385cce]" started-at="2024-08-03T17:58:36 IST" name="afterMethode" finished-at="2024-08-03T17:58:36 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethode -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:test.BeforeAndAfterAnnotation@2e385cce]" started-at="2024-08-03T17:58:36 IST" name="beforeMethod" finished-at="2024-08-03T17:58:36 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="afterMethode()[pri:0, instance:test.BeforeAndAfterAnnotation@2e385cce]" started-at="2024-08-03T17:58:36 IST" name="afterMethode" finished-at="2024-08-03T17:58:36 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethode -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:test.BeforeAndAfterAnnotation@2e385cce]" started-at="2024-08-03T17:58:36 IST" name="afterClass" finished-at="2024-08-03T17:58:36 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method is-config="true" signature="getLogout()[pri:0, instance:test.BeforeAndAfterAnnotation@2e385cce]" started-at="2024-08-03T17:58:36 IST" name="getLogout" finished-at="2024-08-03T17:58:36 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getLogout -->
+      </class> <!-- test.BeforeAndAfterAnnotation -->
+      <class name="test.TestCasePeckageLevelWithRegex">
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:test.TestCasePeckageLevelWithRegex@13e344d]" started-at="2024-08-03T17:58:36 IST" name="afterSuite" finished-at="2024-08-03T17:58:36 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- test.TestCasePeckageLevelWithRegex -->
+      <class name="test.Test1">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:test.Test1@229c6181]" started-at="2024-08-03T17:58:35 IST" name="beforeSuite" finished-at="2024-08-03T17:58:35 IST" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+      </class> <!-- test.Test1 -->
+    </test> <!-- Execute the script -->
+  </suite> <!-- EMI Month -->
+</testng-results>
